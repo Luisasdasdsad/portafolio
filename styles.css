@@ -1,75 +1,137 @@
 /* General */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  
-  header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    margin: 0 1rem;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  section {
-    padding: 2rem;
-  }
-  
-  #inicio {
-    background: #f4f4f4;
-    text-align: center;
-    padding: 5rem 2rem;
-  }
-  
-  #proyectos .proyecto {
-    margin-bottom: 1.5rem;
-  }
-  
-  #proyectos a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-  
-  #contacto form {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  #contacto label {
-    display: block;
-    margin-top: 1rem;
-  }
-  
-  #contacto input, #contacto textarea, #contacto button {
-    width: 100%;
-    padding: 0.5rem;
-    margin-top: 0.5rem;
-    border: 1px solid #ccc;
-  }
-  
-  footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-  }
-  
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #2C2C2C; /* Texto base con alto contraste */
+  background-color: #F9F9F9; /* Fondo claro */
+}
+
+header {
+  background: #1A73E8; /* Azul accesible */
+  color: #FFFFFF; /* Texto blanco para contraste */
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;s
+}
+
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #FFC107; /* Amarillo dorado para hover */
+}
+
+section {
+  padding: 2rem;
+}
+
+/* Tipografía específica para secciones */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #212121; /* Título principal con alto contraste */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333333; /* Subtítulos oscuros */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #444444; /* Títulos secundarios */
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555555; /* Texto con buen contraste en fondo claro */
+}
+
+#inicio {
+  background: #E3F2FD; /* Azul claro suave */
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+/* Estilo de enlaces */
+#proyectos a {
+  color: #1A73E8; /* Azul accesible */
+  text-decoration: none;
+  font-weight: 400;
+}
+
+#proyectos a:hover {
+  text-decoration: underline;
+  color: #FFC107; /* Amarillo para indicar interacción */
+}
+
+/* Estilos para el formulario */
+#contacto form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contacto label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333333; /* Texto oscuro para contraste */
+}
+
+#contacto input,
+#contacto textarea,
+#contacto button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #CCCCCC; /* Bordes suaves */
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+#contacto input:focus,
+#contacto textarea:focus {
+  border-color: #1A73E8; /* Azul para indicar foco */
+  outline: none;
+}
+
+#contacto button {
+  background: #1A73E8;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contacto button:hover {
+  background: #FFC107; /* Amarillo para hover */
+  color: #212121; /* Contraste en hover */
+}
+
+footer {
+  background: #212121; /* Negro accesible */
+  color: #FFFFFF; /* Texto blanco para contraste */
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+}
