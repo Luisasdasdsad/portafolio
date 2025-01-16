@@ -5,7 +5,7 @@ body {
   padding: 0;
   line-height: 1.6;
   color: #2C2C2C; /* Texto base con alto contraste */
-  background-color: #F9F9F9; /* Fondo claro */
+  background-color: #ddc3c3; /* Fondo claro */
 }
 
 header {
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #FFFFFF;
+  color: #FFFFFF; /* Texto blanco para contraste */
   text-decoration: none;
   font-weight: bold;
 }
